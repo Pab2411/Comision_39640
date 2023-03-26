@@ -1,9 +1,23 @@
 
 .logoBeatrice{
     width: 150px;
-    height: 200px;
+    height: 70px;
+}
+
+.carrito{
+    margin-right: 45px;
 }
 
 .container-fluid{
-    background-color: aqua;
+    background: rgb(242,242,246);
+    background: linear-gradient(90deg, rgba(242,242,246,1) 0%, rgba(235,235,244,1) 22%, rgba(84,92,93,1) 100%);;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar-expand-lg{
+    font-size: 18px;
 }
