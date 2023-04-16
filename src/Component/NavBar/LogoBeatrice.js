@@ -1,10 +1,10 @@
-import beatrice from './Img/beatrice.jpg'
+import beatrice from './Img/beatrice.png'
 import './navBar.css'
 
-const LogoBeatrice =() =>{
-    return(
+const LogoBeatrice = () => {
+    return (
         <div>
-            <img className='logoBeatrice' src ={beatrice} alt="logo-beatrice"/>
+            <img className='logoBeatrice' src={beatrice} alt="logo-beatrice" />
         </div>
     )
 }

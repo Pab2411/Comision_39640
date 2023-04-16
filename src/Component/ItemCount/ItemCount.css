@@ -1,0 +1,18 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Controls {
+    display: flex;
+}
+
+.Number {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Agregar {
+    margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+.imgItem {
+    width: 50%;
+    height: auto;
+}
+
+.Option {
+    justify-content: center;
+
+}
+
+.btnItem {
+    width: 85px;
+    height: 24px;
+    background: #c6ccd1;
+    border-radius: 5px;
+}
+
+.optionItem {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(187, 61, 105);
+}

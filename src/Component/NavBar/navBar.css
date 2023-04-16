@@ -1,23 +1,42 @@
-
-.logoBeatrice{
+.logoBeatrice {
     width: 150px;
     height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.carrito{
+.carrito {
     margin-right: 45px;
 }
 
-.container-fluid{
-    background: rgb(242,242,246);
-    background: linear-gradient(90deg, rgba(242,242,246,1) 0%, rgba(235,235,244,1) 22%, rgba(84,92,93,1) 100%);;
+.container-fluid {
+    background: rgb(242, 242, 246);
+    background: linear-gradient(90deg, rgba(242, 242, 246, 1) 0%, rgba(235, 235, 244, 1) 22%, rgba(84, 92, 93, 1) 100%);
+    ;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.navbar-expand-lg{
+.navbar-expand-lg {
     font-size: 18px;
+}
+
+.Option {
+    font-size: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(39, 46, 53, 0.91);
+}
+
+.ActiveOption {
+
+    font-size: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 72, 255);
 }
