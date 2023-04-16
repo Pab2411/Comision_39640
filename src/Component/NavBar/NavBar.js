@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
 
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid containerNavBar">
         <Link to='/' >
           <a className="navbar-brand" ><LogoBeatrice /></a>
         </Link>

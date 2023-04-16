@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <div className="container-fluid">
+        <div className="container-fluid containerCard">
           <div className='row'>
             <Routes>
 
