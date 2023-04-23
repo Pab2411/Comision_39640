@@ -6,7 +6,7 @@ const ItemmDetail = ({ id, name, img, category, description, price, stock }) => 
     return (
         <div className="col-xs-12 col-md-6 col-xl-3 mx-auto text-center">
             <div className="card" >
-                <img src={img} className="card-img-top imgDetail" alt={name} />
+                <img src={img} className="card-image" alt={name} />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Categoría: {category}</p>

@@ -1,8 +1,8 @@
-.imgDetail {
+/*.imgDetail {
     width: 50%;
     height: 50%;
 }
-
+*/
 .card {
     margin-bottom: 26px;
     display: flex;
@@ -13,6 +13,12 @@
     padding: 5px;
     border-radius: 13px;
     background-color: cornsilk;
+}
+
+.card-image {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
 }
 
 .card-title {

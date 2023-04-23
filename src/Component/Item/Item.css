@@ -1,7 +1,15 @@
-.imgItem {
+/*.imgItem {
     width: 50%;
     height: auto;
 }
+*/
+
+.card-image {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
 
 .Option {
     justify-content: center;
