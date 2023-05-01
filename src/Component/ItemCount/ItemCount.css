@@ -11,7 +11,14 @@
 .Number {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
 }
+
+/*.Button {
+    width: 20px;
+    height: 25px;
+}
+*/
 
 .Agregar {
     margin-top: 10px;

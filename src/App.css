@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.containerCard {
+.fondo {
   background-image: url(../public/Backgraund-fondo.jpg);
 }
+
+/*.containerCard {
+  background-image: url(../public/Backgraund-fondo.jpg);
+}
+*/
 
 .App-logo {
   height: 40vmin;
