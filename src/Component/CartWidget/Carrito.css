@@ -1,8 +1,11 @@
-
-.carrito{
+.carrito {
     display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
 }
-.carrito-img{
-    width: 40px;
-    height: 37px;
+
+.carrito-img {
+    width: 28px;
+    height: 28px;
 }
