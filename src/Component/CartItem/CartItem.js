@@ -11,11 +11,11 @@ const CartItem = ({ id, name, price, quantity }) => {
 
     return (
         <div className="itemCarrito">
-            <h4>Item: {name}</h4>
+            <h4>{name}</h4>
             <p>Cantidad: {quantity}</p>
             <p>Precio: {price}</p>
             <p>Sub Total: {price * quantity}</p>
-            <button className="btn btn-danger" onClick={handleRemove}>Eliminar</button>
+            <button className="btn btn-danger botonEliminar" onClick={handleRemove}>X</button>
         </div>
     )
 

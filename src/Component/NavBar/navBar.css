@@ -40,3 +40,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 72, 255);
 }
+
+.navbar-expand-lg {
+    padding-bottom: 15px;
+}
