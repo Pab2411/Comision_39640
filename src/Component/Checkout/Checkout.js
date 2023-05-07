@@ -4,6 +4,8 @@ import { Timestamp, addDoc, collection, documentId, where, writeBatch } from "fi
 import CheckoutForm from '../CheckoutForm/CheckoutForm'
 import { getDocs, query } from "firebase/firestore"
 import { db } from '../../services/firebase/firebaseConfig'
+import './Checkout.css'
+
 
 const Checkout = () => {
     const [loading, setLoading] = useState(false)
@@ -74,7 +76,7 @@ const Checkout = () => {
     }
 
     return (
-        <div>
+        <div className="checkoutText">
             <h1>Checkout</h1>
             <CheckoutForm onConfirm={createOrder} />
         </div>
