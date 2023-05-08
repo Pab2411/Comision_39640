@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+Aquí tienes un ejemplo de cómo podrías estructurar el archivo README.md en formato Markdown para el proyecto Ecommers Beatrice en React:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Proyecto Ecommers Beatrice en React
 
-In the project directory, you can run:
+Este proyecto es un e-commerce desarrollado en React, que utiliza componentes como CartWidjet, ItemListContainer, ItemCount, ItemList, ItemDetailContainer, ItemDetail, Context, Cart, Checkout y CheckoutForm. Con estos componentes, se logra crear una página web que permite a los usuarios ver productos, agregarlos al carrito de compras, y finalizar la compra a través de un formulario de checkout. La base de datos utilizada es Firestore.
 
-### `npm start`
+## Componentes principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Navbar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`-`El Navbar es un componente que contiene cuatro links que permiten navegar por la página: "Inicio", "Productos", "Categorías" y "Carrito". Al hacer clic en "Productos" o "Categorías", se muestra el componente ItemListContainer, que se encarga de obtener los datos de Firestore y mostrarlos en una lista de productos. El componente CartWidjet se encarga de mostrar los elementos en el carrito.
 
-### `npm test`
+### ItemListContainer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`-`El ItemListContainer es un componente que se encarga de obtener los datos de Firestore y mostrarlos en una lista de productos. Utiliza el componente ItemList para renderizar los productos.
 
-### `npm run build`
+### ItemCount
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`-`El ItemCount es un componente que permite al usuario seleccionar la cantidad de productos que desea agregar al carrito.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ItemList
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`-`El ItemList es un componente que muestra los productos en una lista, y permite al usuario agregarlos al carrito haciendo clic en un botón.
 
-### `npm run eject`
+### ItemDetailContainer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`-`El ItemDetailContainer es un componente que se encarga de mostrar los detalles de un producto específico. Utiliza el componente ItemDetail para renderizar el producto seleccionado.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ItemDetail
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`-`El ItemDetail es un componente que muestra los detalles de un producto específico, y permite al usuario seleccionar la cantidad de productos que desea agregar al carrito.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Context
 
-## Learn More
+`-`El Context es un componente que contiene el customContext que se utiliza para almacenar todos los componentes hijos. Se utiliza para pasar datos de un componente a otro.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Cart
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`-`El Cart es un componente que muestra un desglose de los productos que se han agregado al carrito. Permite al usuario eliminar productos, vaciar el carrito, y finalizar la compra a través del botón "Checkout".
 
-### Code Splitting
+### Checkout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`-`El Checkout es un componente que se encarga de crear la orden con los datos correspondientes al carrito y los datos del cliente. También actualiza el stock de los productos comprados.
 
-### Analyzing the Bundle Size
+### CheckoutForm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`-`El CheckoutForm es un componente que contiene los input donde se ingresan los datos del cliente.
 
-### Making a Progressive Web App
+## Necesitamos el uso de React-Router-Dom
+Para ejecutarlo en la terminal ingresar:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`npm install react-router-dom`
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Instrucciones para ejecutar el proyecto
 
-### Deployment
+Para ejecutar el proyecto, es necesario seguir los siguientes pasos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clonar el repositorio en tu computadora.
+2. Instalar las dependencias con el comando `npm install`.
+3. Generar la carpeta .env en la rama src
+4. Solicitar claves de acceso y cargarlas en .env
+5. Iniciar la aplicación con el comando `npm start`.

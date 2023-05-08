@@ -33,12 +33,14 @@ const ItemListContainer = ({ greeting }) => {
             .finally(() => {
                 setLoading(false)
             })
-    })
+    }, [categoryId])
 
     return (
         <div>
             <h1>{greeting}</h1>
-            <ItemList products={products} />
+            {loading ? (<div>...loading</div>) : (
+                <ItemList products={products} />
+            )}
         </div>
     )
 

@@ -9,7 +9,7 @@ import CartItem from '../CartItem/CartItem'
 const Cart = () => {
     const { cart, clearCart, totalQuantity, total } = useContext(CartContext)
 
-    console.log(totalQuantity)
+
 
     if (totalQuantity === 0) {
         return (
